@@ -1,0 +1,19 @@
+\begin{questions}
+    \question{
+        For $m\le k\le n$, prove
+        $${n \choose k}{k \choose m}=
+        {n \choose m}{{n-m} \choose {k-m}}$$
+    }
+    \begin{solution}
+        Here
+        \begin{align*}
+            {n \choose k}{k \choose m}&=
+            \frac{n!k!}{k!m!(n-k)!(k-m)!}\\
+            &=\frac{n!(n-m)!}{m!(n-m)!(n-k)!(k-m)!}\\
+            &=\frac{n!}{m!(n-m)!}\cdot
+                \frac{(n-m)!}{(k-m)!\left((n-m)-(k-m)\right)!}\\
+            &={n \choose m}{{n-m} \choose {k-m}}
+        \end{align*}
+        \qedsymbol
+    \end{solution}
+\end{questions}

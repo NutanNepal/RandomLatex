@@ -7,7 +7,15 @@
 \usepackage{amssymb}
 \usepackage{mathrsfs}
 \usepackage{tcolorbox}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\graphicspath{ {./images/} }
 
+\usepackage{enumitem}
+
+\newlist{notes}{enumerate}{1}
+\setlist[notes]{label=Note: ,leftmargin=*}
+\newenvironment{note}[1]{\begin{notes}\item #1}{\end{notes}}
 
 \newtheorem{theorem}{Theorem}[section]
 \newtheorem{corollary}{Corollary}[theorem]
