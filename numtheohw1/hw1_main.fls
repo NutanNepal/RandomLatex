@@ -205,8 +205,6 @@ INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
 INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/rsfs/rsfs5.tfm
 INPUT e:/Documents/GitHub/RandomLatex/numtheohw1/macros.tex
 INPUT e:/Documents/GitHub/RandomLatex/numtheohw1/macros.tex
-INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
-INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT e:/Documents/GitHub/RandomLatex/numtheohw1/hw1_1.tex
 INPUT e:/Documents/GitHub/RandomLatex/numtheohw1/hw1_1.tex
 INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
@@ -223,10 +221,16 @@ INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/rsfs/rsfs5.tfm
 INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT e:/Documents/GitHub/RandomLatex/numtheohw1/hw1_2.tex
 INPUT e:/Documents/GitHub/RandomLatex/numtheohw1/hw1_2.tex
+INPUT e:/Documents/GitHub/RandomLatex/numtheohw1/images/pentagonal-numbers.jpg
+INPUT e:/Documents/GitHub/RandomLatex/numtheohw1/images/pentagonal-numbers.jpg
 OUTPUT e:/Documents/GitHub/RandomLatex/numtheohw1/hw1_main.pdf
+INPUT e:/Documents/GitHub/RandomLatex/numtheohw1/images/pentagonal-numbers.jpg
 INPUT c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT e:/Documents/GitHub/RandomLatex/numtheohw1/hw1_3.tex
 INPUT e:/Documents/GitHub/RandomLatex/numtheohw1/hw1_3.tex
+INPUT e:/Documents/GitHub/RandomLatex/numtheohw1/images/hexagonalNumbers.png
+INPUT e:/Documents/GitHub/RandomLatex/numtheohw1/images/hexagonalNumbers.png
+INPUT e:/Documents/GitHub/RandomLatex/numtheohw1/images/hexagonalNumbers.png
 INPUT e:/Documents/GitHub/RandomLatex/numtheohw1/images/hex.png
 INPUT e:/Documents/GitHub/RandomLatex/numtheohw1/images/hex.png
 INPUT e:/Documents/GitHub/RandomLatex/numtheohw1/images/hex.png
@@ -236,9 +240,10 @@ INPUT e:/Documents/GitHub/RandomLatex/numtheohw1/hw1_4.tex
 INPUT e:/Documents/GitHub/RandomLatex/numtheohw1/hw1_4.tex
 INPUT e:/Documents/GitHub/RandomLatex/numtheohw1/hw1_5.tex
 INPUT e:/Documents/GitHub/RandomLatex/numtheohw1/hw1_5.tex
+INPUT e:/Documents/GitHub/RandomLatex/numtheohw1/hw1_bonus.tex
+INPUT e:/Documents/GitHub/RandomLatex/numtheohw1/hw1_bonus.tex
 INPUT e:/Documents/GitHub/RandomLatex/numtheohw1/hw1_main.aux
 INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb
@@ -249,3 +254,4 @@ INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb
 INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb
 INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb
+INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb

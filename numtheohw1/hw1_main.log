@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.31)  1 FEB 2019 04:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.31)  1 FEB 2019 22:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -466,6 +466,9 @@ LaTeX Warning: Label `question@1' multiply defined.
 
 LaTeX Warning: Label `question@1' multiply defined.
 
+
+LaTeX Warning: Label `question@1' multiply defined.
+
 )
 \openout1 = `hw1_main.aux'.
 
@@ -546,40 +549,55 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 LaTeX Font Info:    Try loading font information for U+rsfs on input line 6.
  (c:/texlive/2018/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-) (e:/Documents/GitHub/RandomLatex/numtheohw1/macros.tex) (e:/Documents/GitHub/RandomLatex/numtheohw1/hw1_1.tex) (e:/Documents/GitHub/RandomLatex/numtheohw1/hw1_2.tex [1
+) (e:/Documents/GitHub/RandomLatex/numtheohw1/macros.tex) (e:/Documents/GitHub/RandomLatex/numtheohw1/hw1_1.tex) (e:/Documents/GitHub/RandomLatex/numtheohw1/hw1_2.tex
+<images/pentagonal-numbers.jpg, id=4, 493.845pt x 148.555pt>
+File: images/pentagonal-numbers.jpg Graphic file (type jpg)
+<use images/pentagonal-numbers.jpg>
+Package pdftex.def Info: images/pentagonal-numbers.jpg  used on input line 5.
+(pdftex.def)             Requested size: 289.07999pt x 86.95758pt.
+ [1
 
-{c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]) (e:/Documents/GitHub/RandomLatex/numtheohw1/hw1_3.tex [2]
-<images/hex.png, id=23, 135.50626pt x 153.57375pt>
+{c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <e:/Documents/GitHub/RandomLatex/numtheohw1/images/pentagonal-numbers.jpg>]
+Underfull \vbox (badness 7944) detected at line 85
+ []
+
+[2]) (e:/Documents/GitHub/RandomLatex/numtheohw1/hw1_3.tex
+<images/hexagonalNumbers.png, id=23, 354.32375pt x 143.53625pt>
+File: images/hexagonalNumbers.png Graphic file (type png)
+<use images/hexagonalNumbers.png>
+Package pdftex.def Info: images/hexagonalNumbers.png  used on input line 8.
+(pdftex.def)             Requested size: 354.32288pt x 143.53589pt.
+<images/hex.png, id=24, 135.50626pt x 153.57375pt>
 File: images/hex.png Graphic file (type png)
 <use images/hex.png>
-Package pdftex.def Info: images/hex.png  used on input line 12.
-(pdftex.def)             Requested size: 108.2943pt x 122.7373pt.
-) (e:/Documents/GitHub/RandomLatex/numtheohw1/hw1_4.tex [3 <e:/Documents/GitHub/RandomLatex/numtheohw1/images/hex.png>]) (e:/Documents/GitHub/RandomLatex/numtheohw1/hw1_5.tex
+Package pdftex.def Info: images/hex.png  used on input line 16.
+(pdftex.def)             Requested size: 102.04428pt x 115.65337pt.
+ [3 <e:/Documents/GitHub/RandomLatex/numtheohw1/images/hexagonalNumbers.png> <e:/Documents/GitHub/RandomLatex/numtheohw1/images/hex.png>]) (e:/Documents/GitHub/RandomLatex/numtheohw1/hw1_4.tex) (e:/Documents/GitHub/RandomLatex/numtheohw1/hw1_5.tex
 
 Package amsmath Warning: Foreign command \atopwithdelims;
 (amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 4.
+(amsmath)                 on input line 16.
 
-) [4]
-This exam contains 9 questions with 0 parts, 0 subparts, and 0 subsubparts.
+) (e:/Documents/GitHub/RandomLatex/numtheohw1/hw1_bonus.tex [4]) [5]
+This exam contains 10 questions with 0 parts, 0 subparts, and 0 subsubparts.
 (e:/Documents/GitHub/RandomLatex/numtheohw1/hw1_main.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 14659 strings out of 492616
- 275548 string characters out of 6132768
- 353617 words of memory out of 5000000
- 18261 multiletter control sequences out of 15000+600000
- 12804 words of font info for 52 fonts, out of 8000000 for 9000
+ 14672 strings out of 492616
+ 275984 string characters out of 6132768
+ 355619 words of memory out of 5000000
+ 18269 multiletter control sequences out of 15000+600000
+ 12199 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,11n,73p,891b,357s stack positions out of 5000i,500n,10000p,200000b,80000s
-<c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on e:/Documents/GitHub/RandomLatex/numtheohw1/hw1_main.pdf (4 pages, 132075 bytes).
+ 56i,11n,73p,891b,472s stack positions out of 5000i,500n,10000p,200000b,80000s
+<c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on e:/Documents/GitHub/RandomLatex/numtheohw1/hw1_main.pdf (5 pages, 209672 bytes).
 PDF statistics:
- 71 PDF objects out of 1000 (max. 8388607)
- 50 compressed objects within 1 object stream
+ 77 PDF objects out of 1000 (max. 8388607)
+ 52 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 18 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 28 words of extra memory for PDF output out of 10000 (max. 10000000)
 

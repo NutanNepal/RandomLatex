@@ -1,19 +1,38 @@
+The pentagonal numbers are the integers that count the
+number of ``coins" that can be arranged to form pentagons.
+Some examples are shown below.
+
+\includegraphics[width=4in]{images/pentagonal-numbers.jpg}
+
 \begin{questions}
     \question{
-.
+        Determine a recursion equation for the pentagonal
+        numbers and explain how this can be understood
+        from the geometry.  For example, we could see that
+        in the triangular numbers that we were simply
+        adding a new row with
+        $n$ numbers to see that $t_n=t_{n-1}+n$.
     }
     \begin{solution}
-        The $n^{th}$ pentagonal number $p_n$ is given by $$p_{n}
-        =p_{n-1} + 3n +1$$
+        The $n^{th}$ pentagonal number $p_n$ is given by
+        $$p_{n}=p_{n-1} + 3n +1$$
         where the base case is given by $p_0=1$.
     \end{solution}
 
     \question{
-.
+        Use the recursion equation in the previous
+        part to write the equation as a sum.
+
+        For example, we saw that $t_n=t_{n-1}+n$
+        and then that $t_n=\sum_{i=1}^{n} i$.
+        
+        We also showed that the square numbers
+        $s_n=s_{n-1}+2n-1$ and then that
+        $s_n=\sum_{i=1}^n(2i-1).$
     }
     \begin{solution}
-        We see that $p_0 = 1$ and using the recursive definition, 
-        the few other terms are given by:
+        We see that $p_0 = 1$ and using the recursive
+        definition, the few other terms are given by:
         \begin{align*}
             p_1 &= 1 +3*1+1=2+3*1\\
             p_2 &= \left(1+3*1+1\right) +3*2+1
@@ -22,24 +41,31 @@
             =4+3*6\\
             &\vdots\\
             p_n &= (n+1)+3*t_n\\
-            \shortintertext{where $t_n$ is the nth triangular number.}
+            \shortintertext{where $t_n$ is the nth triangular
+            number.}
         \end{align*}
         So, we have
         $$p_n = \sum_{i=0}^n{1+3i}$$
     \end{solution}
 
     \question{
-        .
+        Determine a closed-form solution for the pentagonal
+        numbers.  Use induction to show that this is
+        equivalent to the recursion equation stated above.
+        For example, we showed that
+        $\sum_{i=1}^n i=1+2+\ldots +n=\frac{n(n+1)}{2}$
+        using induction in class.
     }
     \begin{solution}
         We get, 
         \begin{equation}
-            H_k: p_k = \sum_{i=0}^k{1+3i} = (k+1)+\frac{3k(k+1)}{2}
-        =\frac{(k+1)(3k+2)}{2}
+            H_k: p_k = \sum_{i=0}^k{1+3i} = (k+1)+\frac
+            {3k(k+1)}{2}=\frac{(k+1)(3k+2)}{2}
         \end{equation}
 
-        Here, we see that the base case $p_0=2/2=1$, which is true. 
-        Assuming that the statement $H_k$ is true for some $k$, we 
+        Here, we see that the base case $p_0=2/2=1$, which
+        is true. Assuming that the statement $H_k$ is true
+        for some $k$, we 
         have
         \begin{align*}
             p_{k+1} &= p_k+3(k+1)+1\\
@@ -48,8 +74,8 @@
             &=\frac{3k^2+11k+10}{2}\\
             &=\frac{(k+2)(3k+5)}{2}
         \end{align*}
-        Then, since $H_k\implies H_{k+1}$, the statement is true for
-        all integers $k\ge 0$.
+        Then, since $H_k\implies H_{k+1}$, the statement is
+        true for all integers $k\ge 0$.
         \begin{note}
             If we start the numbering of terms from 1, 
             we get the recursive formula $p_n=p_{n-1}+3(n-1)+1$ 

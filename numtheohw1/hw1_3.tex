@@ -1,7 +1,11 @@
 \begin{questions}
     \question{
-        Explain, geometrically, the recursive formula for $nth$
-        hexagonal number.
+        The hexagonal numbers satisfy the recursive equation
+        $h_n= h_{n-1}+4n-3, h_1=1$.  Explain geometrically
+        why this describes these numbers.  A picture of the
+        hexagonal numbers is given below.
+
+        \includegraphics{images/hexagonalNumbers.png}
     }
     \begin{solution}
         To get $nth$ hexagonal number we add 4 sides each of size 
@@ -13,7 +17,9 @@
         $$h_1=1, \quad h_n=h_{n-1}+4n-3$$
     \end{solution}
     \question{
-        .
+        Use induction to show that the closed form
+        $h_n=n(2n-1), n\geq 1$ also evaluates to the
+        hexagonal numbers.
     }
     \begin{solution}
         $$h_n=n(2n-1),\quad n\ge 1$$
