@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.31)  3 FEB 2019 03:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.31)  7 FEB 2019 03:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -445,35 +445,33 @@ Package: enumitem 2019/01/14 v3.7 Customized lists
 )
 \c@notesi=\count165
 \enitdp@notes=\count166
-\c@theorem=\count167
-\c@corollary=\count168
 ) (e:/Documents/GitHub/RandomLatex/numtheohw1/hw1_main.aux)
 \openout1 = `hw1_main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
  ABD: EveryShipout initializing macros (c:/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count169
+\scratchcounter=\count167
 \scratchdimen=\dimen167
 \scratchbox=\box47
-\nofMPsegments=\count170
-\nofMParguments=\count171
+\nofMPsegments=\count168
+\nofMParguments=\count169
 \everyMPshowfont=\toks47
-\MPscratchCnt=\count172
+\MPscratchCnt=\count170
 \MPscratchDim=\dimen168
-\MPnumerator=\count173
-\makeMPintoPDFobject=\count174
+\MPnumerator=\count171
+\makeMPintoPDFobject=\count172
 \everyMPtoPDFconversion=\toks48
 ) (c:/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -516,18 +514,23 @@ Package grfext Info: Graphics extension search list:
  (c:/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-LaTeX Font Info:    Try loading font information for U+msa on input line 6.
+Underfull \hbox (badness 10000) in paragraph at lines 4--8
+
+ []
+
+(e:/Documents/GitHub/RandomLatex/numtheohw1/macros.tex) (e:/Documents/GitHub/RandomLatex/numtheohw1/hw1_1.tex
+LaTeX Font Info:    Try loading font information for U+msa on input line 7.
  (c:/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 6.
+LaTeX Font Info:    Try loading font information for U+msb on input line 7.
  (c:/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 6.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 7.
  (c:/texlive/2018/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-) (e:/Documents/GitHub/RandomLatex/numtheohw1/macros.tex) (e:/Documents/GitHub/RandomLatex/numtheohw1/hw1_1.tex) (e:/Documents/GitHub/RandomLatex/numtheohw1/hw1_2.tex
+)) (e:/Documents/GitHub/RandomLatex/numtheohw1/hw1_2.tex
 <images/pentagonal-numbers.jpg, id=4, 493.845pt x 148.555pt>
 File: images/pentagonal-numbers.jpg Graphic file (type jpg)
 <use images/pentagonal-numbers.jpg>
@@ -535,38 +538,34 @@ Package pdftex.def Info: images/pentagonal-numbers.jpg  used on input line 6.
 (pdftex.def)             Requested size: 289.07999pt x 86.95758pt.
  [1
 
-{c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <e:/Documents/GitHub/RandomLatex/numtheohw1/images/pentagonal-numbers.jpg>]
-Underfull \vbox (badness 10000) detected at line 88
- []
-
-[2]) (e:/Documents/GitHub/RandomLatex/numtheohw1/hw1_3.tex
-<images/hexagonalNumbers.png, id=23, 354.32375pt x 143.53625pt>
+{c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <e:/Documents/GitHub/RandomLatex/numtheohw1/images/pentagonal-numbers.jpg>]) (e:/Documents/GitHub/RandomLatex/numtheohw1/hw1_3.tex
+<images/hexagonalNumbers.png, id=20, 354.32375pt x 143.53625pt>
 File: images/hexagonalNumbers.png Graphic file (type png)
 <use images/hexagonalNumbers.png>
 Package pdftex.def Info: images/hexagonalNumbers.png  used on input line 12.
 (pdftex.def)             Requested size: 354.32288pt x 143.53589pt.
- [3 <e:/Documents/GitHub/RandomLatex/numtheohw1/images/hexagonalNumbers.png>]) (e:/Documents/GitHub/RandomLatex/numtheohw1/hw1_4.tex) (e:/Documents/GitHub/RandomLatex/numtheohw1/hw1_5.tex
+ [2 <e:/Documents/GitHub/RandomLatex/numtheohw1/images/hexagonalNumbers.png>]) (e:/Documents/GitHub/RandomLatex/numtheohw1/hw1_4.tex) (e:/Documents/GitHub/RandomLatex/numtheohw1/hw1_5.tex
 
 Package amsmath Warning: Foreign command \atopwithdelims;
 (amsmath)                \frac or \genfrac should be used instead
 (amsmath)                 on input line 15.
 
-) (e:/Documents/GitHub/RandomLatex/numtheohw1/hw1_bonus.tex [4]) [5]
+) (e:/Documents/GitHub/RandomLatex/numtheohw1/hw1_bonus.tex [3]) [4]
 This exam contains 6 questions with 7 parts, 0 subparts, and 0 subsubparts.
 (e:/Documents/GitHub/RandomLatex/numtheohw1/hw1_main.aux) ) 
 Here is how much of TeX's memory you used:
- 14702 strings out of 492616
- 276371 string characters out of 6132768
- 355736 words of memory out of 5000000
- 18300 multiletter control sequences out of 15000+600000
- 12199 words of font info for 50 fonts, out of 8000000 for 9000
+ 14657 strings out of 492616
+ 275907 string characters out of 6132768
+ 354549 words of memory out of 5000000
+ 18264 multiletter control sequences out of 15000+600000
+ 7059 words of font info for 29 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,11n,73p,891b,446s stack positions out of 5000i,500n,10000p,200000b,80000s
-<c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on e:/Documents/GitHub/RandomLatex/numtheohw1/hw1_main.pdf (5 pages, 201435 bytes).
+ 56i,11n,73p,891b,440s stack positions out of 5000i,500n,10000p,200000b,80000s
+<c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on e:/Documents/GitHub/RandomLatex/numtheohw1/hw1_main.pdf (4 pages, 190237 bytes).
 PDF statistics:
- 74 PDF objects out of 1000 (max. 8388607)
- 51 compressed objects within 1 object stream
+ 67 PDF objects out of 1000 (max. 8388607)
+ 46 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  23 words of extra memory for PDF output out of 10000 (max. 10000000)
 

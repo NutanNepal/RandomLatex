@@ -18,26 +18,19 @@
         k\in\mathbb{N}$, we have $p(k,1)=1$.
 
         To find the $(n+1)^{th}$ $k$-ogonal number, we 
-        form $(k-2)$ sides, each of size $(n+1)$ and then 
+        add $(k-2)$ sides, each of size $(n+1)$ and then 
         subtract $k-3$ (the number of common vertices)
         from the resultant. So we have
         $$p(k,n+1)=p(k,n)+(n+1)(k-2)+3-k$$
-        We see that
+        Using this recursive definition, we find
         \begin{align*}
-            p(k,1) &= 1\\
-            p(k,2) &= 1+(2k-4)+3-k=k\\
-            p(k,3) &= k+(3k-6)+3-k=3k-3\\
-            p(k,4) &= 3k-3+(4k-8)+3-k=6k-8\\
-            p(k,5) &= 6k-8+(5k-10)+3-k=10k-15\\
-            &\vdots\\
-            p(k,n) &= t_{n-1}k-s_{n-1} +1
+            p(k,n)&=\sum_{i=1}^n{
+                    (i(k-2)+3-k)
+            }\\
+            &= \frac{n(n+1)}{2}(k-2)+n(3-k)\\
         \end{align*}
-        Thus
-        \begin{align*}
-            p(k,n) &= \frac{kn(n-1)}{2}-(n-1)^2+1\\
-                   &= \frac{kn^2-kn-2n^2+4n-2+2}{2}\\
-                   &= \frac{kn^2-2n^2-kn+4n}{2}\\
-                   &= \frac{kn(n-1)}{2}+2n-n^2\\
-        \end{align*}
-        \qedsymbol
+        \begin{note}
+            We can 
+            also see that $p(k,n) = kt_{n-1}-s_{n-1}+1$.
+        \end{note}
     \end{solution}
