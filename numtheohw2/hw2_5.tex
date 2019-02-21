@@ -1,0 +1,88 @@
+\question{
+    It has been conjectured that every
+    even number greater than 2 is the
+    sum of two primes.  This is known
+    as Goldbach’s conjecture, since
+    he asked the question in 1742 in
+    a letter to Euler.
+}
+
+\begin{parts}
+    
+\part{
+    Write every even integer
+    between 4 and 20, inclusively
+    as the sum of two primes.
+}
+\begin{solution}
+    \begin{align}
+        4&=2+2,\\
+        6&=3+3,\\
+        8&=5+3,\\
+        10&=5+5,\\
+        12&=5+7,\\
+        14&=7+7,\\
+        16&=13+3,\\
+        18&=11+7,\\
+        20&=17+3.
+    \end{align}
+\end{solution}
+
+\part{
+    If you wanted to show that is
+    holds for a large number, say
+    1234567890, then describe
+    a procedure to find such a sum.
+    Yes, you may write it as a
+    computer program if
+    you so choose.
+}
+\begin{solution}
+    We start from the half of the given
+    number
+    and check for each odd numbers.
+    \begin{lstlisting}[language = Python]
+#returns the primes
+def goldbachify(n):
+    [x, y] = [n//2,n//2]
+    if not x % 2: [x,y] = [x + 1, y - 1]
+    for _ in range (1, y):
+        if is_prime(x) and is_prime(y):
+            return [x, y]
+        [x,y]=[x+2, y-2]
+    return [x,y]
+#check primality
+def is_prime(n):
+    if not n % 2: return False
+    for x in range(3, int(n**(0.5))+1, 2):
+        if not n % x: return False
+    return True
+    \end{lstlisting}
+\end{solution}
+
+\part{
+    Give an example of an odd
+    integer that cannot be written
+    as the sum of two primes.
+}
+\begin{solution}
+    23 cannot be represented as sum of
+    two prime numbers.
+\end{solution}
+
+\part{
+    Classify all odd numbers that
+    cannot be expressed as the sum
+    of two primes.
+}
+\begin{solution}
+    Since odd numbers are always
+    partitioned into an odd and even,
+    and odd number $k$ can be written
+    as $k=2m+(2n+1)$ for some natural
+    numbers $m,n$. Since one of them
+    is always even, $k$ cannot be
+    written as sum of two primes if
+    $k-2$ is not prime.
+\end{solution}
+\end{parts}
